@@ -1,4 +1,8 @@
-# Trivia
+## Trivia
+
+##### Projeto elaborado para Laboratória SP 01/19
+
+---
 
 Projeto desenvolvido nas primeiras semanas no bootcamp da Laboratória.<br/>
 Esta versão é uma evolução do que foi proposto no curso, que a princípio deveria trazer as perguntas em alerts.<br/>
