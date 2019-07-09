@@ -46,7 +46,7 @@ function submitAnswerCountry() {
     if (select_answer3.value == "b") right++;
     else wrong++;
 
-    document.querySelector(".divResult").innerHTML =
+    document.querySelector(".div-result").innerHTML =
       "Acertos: " + right + "<br>Erros: " + wrong;
 
     showPlayAgain();
@@ -80,7 +80,7 @@ function submitAnswerMovie() {
     if (select_answer3.value == "b") right++;
     else wrong++;
 
-    document.querySelector(".divResult").innerHTML =
+    document.querySelector(".div-result").innerHTML =
       "Acertos: " + right + "<br>Erros: " + wrong;
 
     showPlayAgain();
