@@ -11,7 +11,7 @@
   
   <body>
   <header>
-    <div id="header">
+    <div id="header" class="headerStyle">
       <h1>TriviaShow</h1>
       <h1>Vamos jogar?</h1>
     </div>
@@ -19,19 +19,20 @@
    
   <div id="submit">
       <p>Olá! Insira seu nome para iniciarmos o jogo </p>
-      <input type="text" id="name"/></br>
+      <input type="text" id="name" class="nameStyle"/></br>
       <button class="button" onclick="publishName()">ENVIAR </button>
   </div>
 
-  <p id="show"> </p>
+  <p id="show" class="showAnswer"> </p>
 
   <div id="play" class="hidden">
     <p>Escolha qual tema deseja jogar!</p>
-    <button class="button" onclick="showQuestions('quizzCountry')">PAÍSES</button>
-    <button class="button" onclick="showQuestions('quizzMovies')">FILMES</button> 
+    <button class="button" onclick="showQuestions('countryQuizz')">PAÍSES</button>
+    <button class="button" onclick="showQuestions('moviesQuizz')">FILMES</button> 
   </div>
 
-  <div id="container" class="hidden">
+  <div id="container" class="hidden containerStyle">
+    
     <div id="countryQuizz" class="hidden">
       <p><strong>1) Qual dos países não está na Europa?</strong></p>
       <input type="radio" name="cq1" id="cq1a" value="a"/> a) EUA </br>
@@ -50,7 +51,6 @@
       </br>
       </br>
       <button class="buttonAnswer" onclick="submitAnswerCountry()">ENVIAR RESPOSTAS</button>
-
     </div>
 
     <div id="moviesQuizz" class="hidden">
@@ -71,12 +71,14 @@
       </br>
       <button class="buttonAnswer" onclick="submitAnswerMovie()">ENVIAR RESPOSTAS</button>
     </div>
+    
   </div>
 
   <div id="playAgain" class="hidden"> 
-    <p id="divResult"></p>
+    <p class="divResult"></p>
     <button class="buttonPlayAgain" onclick="play()">JOGUE NOVAMENTE :)</button>
   </div>
-  
+
   </body>
 </html>
+
