@@ -91,9 +91,17 @@ function showPlayAgain() {
   document.getElementById("playAgain").style.display = "block";
   document.getElementById("play").style.display = "none";
   document.getElementById("container").style.display = "none";
+  clearRadioGroup("input.radio");
 }
 
 function play() {
   document.getElementById("playAgain").style.display = "none";
   document.getElementById("play").style.display = "block";
+}
+
+function clearRadioGroup(GroupName) {
+  let ele = document.querySelectorAll(GroupName);
+  for (let i = 0; i < ele.length; i++) {
+    ele[i].checked = false;
+  }
 }
