@@ -1,6 +1,7 @@
 # Trivia
 
-Projeto desenvolvido nas primeiras semanas no bootcamp da Laboratória.
+Projeto desenvolvido nas primeiras semanas no bootcamp da Laboratória.<br/>
+Esta versão é uma evolução do que foi proposto no curso, que a princípio deveria trazer as perguntas em alerts.<br/>
 Não tenha medo de jogar e se desafiar:
 
 1. insira seu nome;
